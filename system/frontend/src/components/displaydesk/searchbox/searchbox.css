@@ -1,0 +1,33 @@
+.searchbox{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height:50px;
+    background-color: white;
+    box-shadow: 0px 1px 2px gray;
+    border-radius: 25px;
+}
+
+.searchbox img{
+    position: absolute;
+    left:3%;
+    height:50%;
+}
+
+.searchbox input{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left:2%;
+    height:40px;
+    width:85%;
+    border:none;
+    outline: none;
+}
+
+.startsearch:hover{
+    cursor: pointer;
+}

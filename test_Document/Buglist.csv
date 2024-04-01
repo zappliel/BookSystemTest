@@ -1,0 +1,3 @@
+Bug ID,Product,Component,Assignee,Status,Severity,Summary,Content,Changed
+1,ZJU Trip,Flight Order Management,bugzilla@temp.com,CONFIRMED,Critical,Flight order information is not available in Personal Center,"Hotel order information is not available in Personal Center, only a blank screen is displayed.",2023/11/26 16:35
+2,ZJU Trip,Hotel Order Management,bugzilla@temp.com,CONFIRMED,Critical,Hotel order information is not available in Personal Center,"Flight order information is not available in Personal Center, only a blank screen is displayed.",2023/11/26 16:36

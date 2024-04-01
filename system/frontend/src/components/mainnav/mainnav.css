@@ -1,0 +1,45 @@
+.mainnav{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 4px 3px rgba(128, 128, 128, 0.409);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: SimHei, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    transition: all.5s;
+    line-height: 80px;
+}
+
+.mainnav:hover{
+    background-color:rgba(50, 134, 208, 0.871);
+    box-shadow: none;
+    color:white;
+    cursor: pointer;
+    letter-spacing: 5px;
+    line-height: 70px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.mainnav:hover img{
+    height:0 !important;
+}
+
+.mainnav:hover .subtitle{
+    display: block;
+}
+
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.subtitle{
+    letter-spacing: 1px;
+    display: none;
+    font-family: 'Courier New', Courier, monospace
+}

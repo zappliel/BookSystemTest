@@ -1,0 +1,22 @@
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    z-index: -1;
+}
+
+.my-link{
+    text-decoration: none;
+}
+
+.my-link.left{
+    margin-left: 90px;
+}
+
+.my-link.right{
+    margin-right: 90px;
+}

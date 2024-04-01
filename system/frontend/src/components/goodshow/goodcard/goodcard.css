@@ -1,0 +1,97 @@
+.goodcard{
+    position: relative;
+    width:95%;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 10px 0.5px rgba(128, 128, 128, 0.295);
+    transition: all.2s;
+}
+
+.goodcard img{
+    margin:2%;
+    margin-left: 4%;
+    height:85%;
+    width:calc(height);
+    border-radius: 5px;
+}
+
+.goodcard div.rightpart{
+    margin:2%;
+    margin-left: 0;
+    position: relative;
+    height:85%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.goodcard div.rightpart img.money{
+    top:0%;
+    position: relative;
+    height:15%
+}
+.goodcard div.rightpart p{
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+}
+
+.goodcard div.description{
+    margin: 2%;
+    margin-right: 4%;
+    padding-left: 3%;
+    position: relative;
+    height:85%;
+    width:80%;
+    font-size: 12px;
+    justify-content: center;
+    display: none;
+    overflow-y: scroll;
+    line-height:20px;
+    font-family: "仿宋";
+    border-left:1px solid white;
+}
+
+.goodcard div.rightpart button{
+    background-color: white;
+    margin-left: 5%;
+    border:none;
+    width:80%;
+    height:30px;
+    transition: all.2s;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.118);
+}
+
+.goodcard div.rightpart button:hover{
+    background-color: rgba(50, 134, 208, 0.681);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: none;
+}
+.goodcard:hover{
+    background-color: rgba(152, 199, 241, 0.642);
+}
+.goodcard:hover>img{
+    display: none;
+}
+
+.goodcard:hover div.description{
+    display: block;
+}
+.goodcard:hover div.rightpart p{
+    font-size: 40px;   
+    margin-left: 5%; 
+    margin-top:2%
+}
+.goodcard:hover div.rightpart>div{
+    margin-top: -10%;
+}
+.goodcard:hover div.rightpart button{
+    display: block;
+}

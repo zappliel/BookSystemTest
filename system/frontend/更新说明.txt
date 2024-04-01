@@ -1,0 +1,2 @@
+goodshow.js：155 整个handleInsert函数复制
+ordergood.js:205 整个Pay函数复制

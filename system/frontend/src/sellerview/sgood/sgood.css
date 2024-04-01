@@ -1,0 +1,141 @@
+.good{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:14%;
+    left:22%;
+    width:73%;
+    font-size: 15px;
+}
+.list-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    width:100%;
+    background-color: aliceblue;
+}
+.showlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width:100%;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.showlist span{
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height:100%;
+    width:10% !important;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height:100%;
+    width:40% !important;
+    overflow-x: auto;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height:100%;
+    width:15% !important;
+}
+
+.stock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height:100%;
+    width:15% !important;
+}
+
+.count{
+    color:rgb(178, 35, 35) !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: normal;
+    height:100%;
+    width:20% !important;
+}
+
+.seemore{
+    color:rgb(174, 173, 173);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height:100%;
+    width:20% !important;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    transition: all.1s;
+}
+
+.click:hover{
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.addbutton{
+    position: absolute;
+    border: none;
+    border-radius: 25px;
+    height:50px;
+    width: 130px;
+    font-size: 18px;
+    padding-left: 28px;
+    background-color: white;
+    box-shadow: 0px 1px 2px gray;
+    display:flex;
+    align-items: center;
+    transition: all.3s;
+}
+
+.addbutton:hover
+{
+    box-shadow: none;
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+    font-weight: bold;
+}
+.deskboard{
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    min-width:1200px;
+    min-height:750px;
+    display: flex;
+}
+
+.loadlabel:hover{
+    cursor: pointer;
+}
+
+.loadlabel:hover>*{
+    background-color: rgba(0,0,0,0.1);
+}
